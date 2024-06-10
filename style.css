@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.35),rgb(0, 0, 0, 0.35)), url(/flat-lay-desktop-with-laptop-cup-coffee.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.todo{
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo h2{
+    display: flex;
+    color: #002765;
+    align-items: center;
+}
+.todo h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
